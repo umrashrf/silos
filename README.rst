@@ -7,7 +7,7 @@ Silos
         :target: https://pypi.python.org/pypi/silos
 
 .. image:: https://img.shields.io/travis/umrashrf/silos.svg
-        :target: https://travis-ci.org/umrashrf/silos
+        :target: https://travis-ci.com/umrashrf/silos
 
 .. image:: https://readthedocs.org/projects/silos/badge/?version=latest
         :target: https://silos.readthedocs.io/en/latest/?badge=latest
@@ -16,7 +16,7 @@ Silos
 
 
 
-Easy Automation using Selenium
+Python utility functions for Selenium
 
 
 * Free software: GNU General Public License v3

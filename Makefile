@@ -4,10 +4,7 @@
 define BROWSER_PYSCRIPT
 import os, webbrowser, sys
 
-try:
-	from urllib import pathname2url
-except:
-	from urllib.request import pathname2url
+from urllib.request import pathname2url
 
 webbrowser.open("file://" + pathname2url(os.path.abspath(sys.argv[1])))
 endef
@@ -54,13 +51,13 @@ lint: ## check style with flake8
 	flake8 silos tests
 
 test: ## run tests quickly with the default Python
-	python setup.py test
+	pytest
 
 test-all: ## run tests on every Python version with tox
 	tox
 
 coverage: ## check code coverage quickly with the default Python
-	coverage run --source silos setup.py test
+	coverage run --source silos -m pytest
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html

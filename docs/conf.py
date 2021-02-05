@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 #
 # silos documentation build configuration file, created by
 # sphinx-quickstart on Fri Jun  9 13:47:02 2017.
@@ -47,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Silos'
-copyright = u"2019, Umair Ashraf"
-author = u"Umair Ashraf"
+project = 'Silos'
+copyright = "2021, Umair Ashraf"
+author = "Umair Ashraf"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -129,8 +128,8 @@ latex_elements = {
 # [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'silos.tex',
-     u'Silos Documentation',
-     u'Umair Ashraf', 'manual'),
+     'Silos Documentation',
+     'Umair Ashraf', 'manual'),
 ]
 
 
@@ -140,7 +139,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'silos',
-     u'Silos Documentation',
+     'Silos Documentation',
      [author], 1)
 ]
 
@@ -152,7 +151,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'silos',
-     u'Silos Documentation',
+     'Silos Documentation',
      author,
      'silos',
      'One line description of project.',
